@@ -1,0 +1,136 @@
+
+<!-- ───────────── 07 UZAY ───────────── -->
+<section class="ch ch--space" id="uzay" data-group="uzay">
+  <div class="wrap">
+    <header class="ch-head"><span class="ch-num" aria-hidden="true">07</span><div><h2 class="ch-title">Uzay</h2><p class="ch-lead">Uzayda SiO₂ kalkan, ayna ve toz tuzağıdır. Hikâyenin kahramanı ise uzay mekiğinin karnındaki o siyah karolar.</p></div></header>
+    <div class="grid g-7-5">
+      <div><p class="callout-q" style="color:#fff">“Bu karo 1260 °C, ama ben onu elimle tutabiliyorum. Nasıl?”</p><p class="lede" style="margin-top:18px;max-width:34em">Cevap iki kelime: düşük ısıl iletkenlik ve düşük yoğunluk. Aşağıda önce mekiğin haritasına, sonra karonun içine bakalım.</p></div>
+      <div class="panel" style="align-self:end"><h3>LI = Lockheed Insulation</h3><p>LI-900 ve LI-2200'ü Kaliforniya'daki Lockheed Missiles &amp; Space Company geliştirip üretti. Lockheed bugün Lockheed Martin'in parçasıdır; yani mekiğin “derisini” yapan şirketin mirasçısı. <a class="src" href="#r-uspto">ABD patenti</a></p><button class="btn btn--sm" type="button" data-open-product="karo" style="background:var(--heat);border-color:var(--heat);color:#1a0d05">Karoyu 3B incele</button></div>
+    </div>
+
+    <div class="stats" style="--cols:4;margin-top:clamp(40px,5vw,72px);--ink:#F4F6FA">
+      <div class="stat" style="border-color:#F4F6FA"><b>144,2</b><span>kg/m³: LI-900'ün yoğunluğu (9 lb/ft³)</span></div>
+      <div class="stat" style="border-color:#F4F6FA"><b>%94</b><span>Hacimce hava (NASA). Hesapla %93,4.</span></div>
+      <div class="stat" style="border-color:#F4F6FA"><b>~24.300</b><span>Bir mekikteki karo sayısı (NASA)</span></div>
+      <div class="stat" style="border-color:#F4F6FA"><b>100</b><span>Her karonun tasarlandığı uçuş sayısı</span></div>
+    </div>
+    <p class="note" style="max-width:60em"><b>Biliyor muydun?</b> Kaynaklar bu konuda bile çelişiyor: NASA'nın eğitim belgesinde “yaklaşık 24.300”, bazı ansiklopedilerde “20.000 HRSI + 725 LRSI” yazıyor. Fark, neyin sayıldığından ve yıllar içinde LRSI karolarının yerini yorganların almasından kaynaklanıyor. <a class="src" href="#r-nasa-box">NASA</a> <a class="src" href="#r-wiki-tiles">Wikipedia</a></p>
+
+    <div class="grid g-7-5" style="margin-top:clamp(48px,6vw,88px)">
+      <div class="panel" style="padding:clamp(16px,2vw,26px)"><h3>Isıl koruma haritası</h3><p class="small">Mekiğin bir bölgesine dokun. Her renk farklı bir malzeme ve sıcaklık sınırı demek.</p><div data-widget="orbiter"></div></div>
+      <div class="panel sticky-note" id="tpsCard" aria-live="polite"><span class="tag" id="tpsTag">HRSI</span><div class="temp" id="tpsTemp" style="margin:14px 0 6px">1260 °C</div><h3 id="tpsName">Yüksek sıcaklık karosu (LI-900 / LI-2200)</h3><p id="tpsText">Mekiğin alt yüzeyi. Siyah RCG kaplama ısıyı ışıma yoluyla geri yollar.</p><div class="tbl-wrap" style="margin-top:16px"><table><thead><tr><th>Malzeme</th><th>Renk</th><th class="num">Üst sınır</th></tr></thead><tbody id="tpsRows"></tbody></table></div><p class="note">Yaklaşık değerler; Cleland &amp; Iannetti 1989, NASA CR-4227 ile doğrulanmalı.</p></div>
+    </div>
+
+    <div class="grid g-7-5" style="margin-top:clamp(16px,2vw,28px)">
+      <div class="panel"><h3>Karonun içinde ısı nasıl ilerler?</h3><p class="small">Yüzey yeniden girişte ~20 dakika ısınır. Kalınlığı seç ve oynat; alüminyum gövde 177 °C'yi geçmemeli.</p><div data-widget="heatsim"></div></div>
+      <div class="grid" style="align-content:start">
+        <div class="panel"><h3>Neden alüminyuma doğrudan yapıştırılmaz?</h3><p class="small">1 m uzunluğunda bir parça 100 K ısınınca ne kadar uzar? (ΔL = α·L₀·ΔT)</p><div data-widget="expansion"></div><p class="small" style="margin-top:12px">Alüminyum karodan 40 kat fazla genleşir. Karo bu yüzden esnek bir keçe pede (SIP) yapıştırılır, ped de alüminyuma RTV silikonla tutturulur.</p></div>
+        <div class="panel"><h3>Bir karo ne kadar ışır?</h3><div data-widget="sb"></div></div>
+      </div>
+    </div>
+
+    <div class="grid g3" style="margin-top:clamp(48px,6vw,88px)">
+      <div class="panel"><span class="tag">1981</span><h3 style="margin-top:12px">STS-1</h3><p class="small">İlk uçuşta bazı karolar kayboldu. Sonrasında karoların yapıştırma yüzeyi yoğunlaştırılarak güçlendirildi.</p></div>
+      <div class="panel"><span class="tag">2003</span><h3 style="margin-top:12px">Columbia</h3><p class="small">1 Şubat 2003'te, kalkışta dış tanktan kopan köpük sol kanattaki RCC hücum kenarı paneline çarpmıştı. Yeniden girişte sıcak gaz kanadın içine girdi ve araç parçalandı; 7 astronot hayatını kaybetti. <b>Karolar değil, kanattaki RCC panel delindi.</b> <a class="src" href="#r-caib">CAIB 2003</a></p></div>
+      <div class="panel"><span class="tag">Starship</span><h3 style="margin-top:12px">Altıgen karolar</h3><p class="small">Starship yaklaşık 18.000 altıgen, silika esaslı, siyah kaplamalı karo taşır. Karolar yapıştırılmaz, pimlerle tutturulur. Uçuş 13 (24 Temmuz 2026) Hint Okyanusu'na bütün hâlde indi, bazı karolar çatladı (ikincil kaynaklar).</p></div>
+    </div>
+
+    <div class="grid g2" style="margin-top:clamp(16px,2vw,28px)">
+      <div class="panel"><h3>Neden altıgen?</h3><p class="small">Kare karolarda araların düz çizgi oluşturur; sıcak gaz bu kanalda kolayca akar. Altıgende yol zikzak çizer. Fareyi ya da parmağını iki desenin üstünde gezdir.</p><div data-widget="hex"></div></div>
+      <div class="panel"><h3>Orion: 103'ten 9'a</h3><p class="small">Orion'un (ana yüklenici Lockheed Martin) Avcoat kalkanı 186 bloktan oluşur. Artemis I'de (Kasım 2022) beklenmedik çatlama ve yanık kaybı görüldü; NASA Artemis II için yeniden giriş yörüngesini kısalttı. Artemis II 1 Nisan 2026'da 4 astronotla fırlatıldı ve 10 Nisan 2026'da denize indi. NASA'nın Ekim 2026 analizine göre kalkan beklendiği gibi çalıştı. <a class="src" href="#r-nasa-artemis">NASA 2026</a></p><div data-widget="artemis"></div></div>
+    </div>
+
+    <div class="grid g4" style="margin-top:clamp(16px,2vw,28px)">
+      <div class="panel panel--line"><h3>Apollo</h3><p class="small">Avcoat ablatif kalkan: epoksi novolak reçine, silika elyafları, fenolik mikrobalonlar ve petek yapı (NASA'dan doğrula).</p></div>
+      <div class="panel panel--line"><h3>Hubble aynası</h3><p class="small">Corning ULE titanyum-silikat camından yapılmıştır (Corning/NASA'dan doğrula).</p></div>
+      <div class="panel panel--line"><h3>Uydu reflektörleri</h3><p class="small">Optik güneş reflektörleri (OSR) arkası gümüş kaplı ince kuvars levhalardır. Güneşi yansıtır, ısıyı kızılötesinde dışarı yayar.</p></div>
+      <div class="panel panel--line"><h3>Şarap kadehi jiroskop</h3><p class="small">Yarım küre rezonatörlü jiroskop (HRG), erimiş kuvarstan yapılmış “şarap kadehi” biçiminde bir rezonatördür.</p></div>
+    </div>
+    <p class="kisaca" style="border-color:var(--space-line)"><b>Kısaca</b><span>%94 hava</span><span>6,1 km/s</span><span>103 → 9</span></p>
+  </div>
+</section>
+
+<!-- ───────────── 08 AEROJEL ───────────── -->
+<section class="ch ch--aero" id="aerojel" data-group="uzay">
+  <div class="wrap">
+    <header class="ch-head"><span class="ch-num" aria-hidden="true">08</span><div><h2 class="ch-title">Aerojel: katı hava</h2><p class="ch-lead">Aerojel, havadan bile iyi yalıtan bir katıdır. Birkaç nanometrelik silika kürecikleri “inci kolye” gibi zincirler kurar; aradaki gözeneklerin hepsi havadır.</p></div></header>
+    <div class="grid g-5-7">
+      <div class="panel panel--paper"><h3>Nasıl yapılır?</h3><div data-widget="solgel"></div></div>
+      <div class="panel panel--paper"><h3>Knudsen etkisi: hava neden ısı taşıyamaz?</h3><p class="small">Havadaki moleküller ortalama ~68 nm yol alıp birbirine çarpar. Aerojelin gözenekleri bundan küçüktür, bu yüzden moleküller birbirine değil duvarlara çarpar ve ısıyı aktaramaz. Gözenek boyutunu değiştir.</p><div data-widget="knudsen"></div></div>
+    </div>
+    <div class="grid g3" style="margin-top:clamp(16px,2vw,28px)">
+      <div class="panel panel--paper"><h3>Ne kadar hava?</h3><div data-widget="porosity"></div></div>
+      <div class="panel panel--paper"><h3>Neden çöker?</h3><p class="small">Normal kurutmada gözeneklerdeki sıvı yüzeyi (menisküs) çok büyük bir kılcal basınç yaratır: ΔP = 2γ·cosθ / r. Süperkritik kurutmada yüzey gerilimi γ = 0 olduğundan ΔP = 0'dır.</p><div data-widget="capillary"></div></div>
+      <div class="panel panel--paper"><h3>Özellikleri</h3><ul class="small"><li>Yoğunluk ~0,001–0,5 g/cm³</li><li>Isıl iletkenlik ~0,012–0,02 W/(m·K); durgun hava ~0,026</li><li>Rayleigh saçılması aerojele mavimsi bir görünüm verir</li><li>Kırılma indisi ~1,0–1,05; ses hızı çok düşük; kırılgan</li><li>Uzun yıllar “en hafif katı” rekorunu tuttu</li></ul></div>
+    </div>
+    <div class="grid g-7-5" style="margin-top:clamp(16px,2vw,28px)">
+      <div class="panel panel--paper"><h3>Yoğunluk ve ısıl iletkenlik: U biçimli eğri</h3><p class="small muted">Şematik çizim; eksenlerde ölçek yok.</p><div data-widget="ucurve"></div></div>
+      <div class="panel panel--paper"><h3>Tarih ve bugün</h3><p><b>1931:</b> Samuel Kistler jelin içindeki sıvıyı katı iskeleti çökertmeden gazla değiştirmeyi başardı. <a class="src" href="#r-kistler">Nature 1931</a></p><p><b>Kullanımlar:</b> boru hatları için yalıtım battaniyeleri, elektrikli araç bataryalarında ısıl bariyerler, bina yalıtımı, Cherenkov dedektörleri, petrol emilimi.</p><p><b>Güncel araştırmalar:</b> ultra hafif ve yanmaz seramik nanolif aerojeller (Si ve ark. 2018), hBN'den “çift negatif indisli” aerojeller (Xu ve ark. 2019), aşırı koşullar için çok bileşenli seramik aerojeller (Guo ve ark. 2022).</p><p class="note"><b>Sağlık:</b> Aerojel amorf olduğu için kristal silika gibi silikoz riski taşıdığı gösterilmemiştir. Ama tozu cildi ve gözü kurutur, solunum yolunu tahriş eder: eldiven, gözlük ve toz maskesi kullan.</p></div>
+    </div>
+    <p class="kisaca"><b>Kısaca</b><span>1931</span><span>~%99 hava</span><span>Kn &gt; 1</span></p>
+  </div>
+</section>
+
+<!-- ───────────── 09 SAVUNMA ───────────── -->
+<section class="ch ch--steel" id="savunma" data-group="uzay">
+  <div class="wrap">
+    <header class="ch-head"><span class="ch-num" aria-hidden="true">09</span><div><h2 class="ch-title">Savunma sanayisi</h2><p class="ch-lead">SiO₂ radarın penceresi, füzenin pusulası ve zırhın hammaddesidir.</p></div></header>
+    <div class="grid g-7-5">
+      <div class="panel panel--paper"><h3>Radom duvarı kaç milimetre olmalı?</h3><p class="small">λ = λ₀ / √ε<sub>r</sub> ve d = n·λ₀ / (2·√(ε<sub>r</sub> − sin²θ)). Örnek: 10 GHz, ε<sub>r</sub> ≈ 3,3, θ = 0 için n = 1 → 8,3 mm; n = 2 → ~16,5 mm.</p><div data-widget="radome"></div><p class="note">Bu bir örnek hesaptır; Patriot radomunun çalışma frekansı açık kaynaklarda yok.</p></div>
+      <div class="panel panel--paper"><h3>Füze radomları</h3><p>Döküm erimiş silika (slip-cast fused silica, SCFS) Georgia Tech'te 1956'dan itibaren geliştirildi. <a class="src" href="#r-dtic">DTIC</a></p><p>Johns Hopkins APL'nin 1992 makalesine göre SCFS radomlar Patriot'ta taktik kullanımdadır; APL'nin 2003 makalesi erimiş silikanın SM-2 Block IV'te kullanıldığını belirtir. <a class="src" href="#r-apl">APL</a></p><p>Patriot radomunun ~16,5 mm kalınlıkta olduğu ikincil kaynaklarda geçer.</p><button class="btn btn--sm btn--ghost" type="button" data-open-product="radom">Radomu 3B incele</button></div>
+    </div>
+    <div class="grid g4" style="margin-top:clamp(16px,2vw,28px)">
+      <div class="panel panel--paper"><h3>Hipersonik füzeler</h3><p class="small">SiO₂f/SiO₂ (silika elyaf takviyeli silika) kompozitleri kullanılır. Yüksek sıcaklıkta kristobalite dönüşüp mukavemet kaybedebilir; alternatifler Si₃N₄ ve Nitroxyceram.</p></div>
+      <div class="panel panel--paper"><h3>Ablatifler</h3><p class="small">Silika-fenolik kompozitler roket lülelerinde ve yeniden giriş araçlarında kullanılır. Yüzey erirken ve kömürleşirken ısıyı uzaklaştırır.</p></div>
+      <div class="panel panel--paper"><h3>Jiroskop ve osilatör</h3><p class="small">Fiber optik jiroskobun hareketli parçası yoktur; füze ve İHA seyrüseferinde yaygındır. Kuvars osilatörler askerî telsiz, radar ve GPS sistemlerinin zaman referansıdır.</p></div>
+      <div class="panel panel--paper"><h3>Zırh</h3><p class="small">Şeffaf zırh cam ve polikarbonat katmanlarından oluşur. SiO₂'den Acheson yöntemiyle üretilen SiC, zırh seramiklerinde ve SiC/SiC motor parçalarında kullanılır.</p></div>
+    </div>
+    <div class="grid g2" style="margin-top:clamp(16px,2vw,28px)">
+      <div class="panel" style="background:var(--ink);color:#fff"><h3 style="color:#fff">Türkiye'den (açık kaynaklarda doğrulananlar)</h3><ul style="color:#C7D0E2"><li><b style="color:#fff">ROKETSAN Balistik Koruma Merkezi:</b> Al₂O₃, SiC ve B₄C seramiklerle zırh bloğu üretiyor (1650 °C sinter fırını, 2400 °C sıcak pres). <a class="src" href="#r-dt" style="color:#9fb0d0;border-color:#34466F">DefenceTurk</a></li><li><b style="color:#fff">ETA Elektronik (Ankara):</b> ASELSAN için geliştirdiği Fiberoptik Jiroskop Birimi'nin seri üretimde olduğunu belirtiyor.</li><li><b style="color:#fff">ASELSAN:</b> jiroskop ve ataletsel ölçüm birimlerinde millileştirme çalışmaları; ASELSAN Sivas optik mercek üretiyor.</li></ul><p class="note" style="color:#93A0BC">Türk kuruluşlarının erimiş silika radom veya silika-fenolik ablatif üretimine dair doğrulanabilir açık kaynak bulunamadı.</p></div>
+      <div class="panel panel--paper"><h3>Lockheed Martin bağlantısı</h3><p>Doğrulanan iki bağ: LI-900 / LI-2200 karoları ve Orion uzay aracının ana yükleniciliği. Havacılık mühendisi olmak isteyenler için malzeme kimyası, kariyerin temelidir.</p></div>
+    </div>
+    <p class="kisaca"><b>Kısaca</b><span>1956</span><span>Patriot</span><span>SiO₂ → SiC</span></p>
+  </div>
+</section>
+
+<!-- ───────────── 10 SAĞLIK ───────────── -->
+<section class="ch ch--rose" id="saglik" data-group="saglik">
+  <div class="wrap">
+    <header class="ch-head"><span class="ch-num" aria-hidden="true">10</span><div><h2 class="ch-title">Tehlike kumda değil, tozda</h2><p class="ch-lead">Plaj kumu akciğere ulaşamaz. Sorun; kesme, kumlama ve öğütmeyle oluşan, taze kırılmış ince kristal silika tozudur.</p></div></header>
+    <div class="grid g2">
+      <div class="panel panel--paper" style="border-top:4px solid var(--oxy)"><span class="tag tag--red">Kristal silika: kuvars, kristobalit</span><ul style="margin-top:14px"><li><b>Solunabilir tozu:</b> silikoz ve akciğer kanserine yol açar.</li><li><b>IARC sınıfı:</b> Grup 1 kanserojen (Monograf 100C, 2012). <a class="src" href="#r-iarc">IARC</a></li></ul></div>
+      <div class="panel panel--paper" style="border-top:4px solid var(--good)"><span class="tag">Amorf silika: E551, silika jel, diş macunu</span><ul style="margin-top:14px"><li><b>Solunabilir tozu:</b> silikoz yaptığına dair güçlü kanıt yok.</li><li><b>IARC sınıfı:</b> Grup 3 (IARC'den doğrula).</li><li><b>Ağızdan alım:</b> EFSA 2024, güvenlik endişesi yok. <a class="src" href="#r-efsa">EFSA</a></li></ul></div>
+    </div>
+    <div class="panel panel--paper" style="margin-top:clamp(16px,2vw,28px)"><h3>Akciğere ne ulaşır?</h3><p class="small">Ölçek logaritmik. Bir taneciğe dokun ya da üstüne gel. Solunabilir kısım, akciğerin en derin kısmına (alveollere) ulaşabilen ~4 µm altındaki tozdur.</p><div data-widget="particles"></div></div>
+    <div class="grid g3" style="margin-top:clamp(16px,2vw,28px)">
+      <div class="panel panel--paper"><h3>Silikoz</h3><p class="small">Akciğerde geri dönüşsüz doku sertleşmesidir (fibroz). Belirtiler: nefes darlığı, öksürük, yorgunluk. Tedavisi yoktur. Ek riskler: akciğer kanseri, KOAH, tüberküloz, böbrek ve otoimmün hastalıklar.</p><div data-widget="silicosis"></div></div>
+      <div class="panel panel--paper"><h3>Türkiye'de kot kumlama</h3><ol class="small"><li><b>2005:</b> İlk vakalar tanımlandı.</li><li><b>2008:</b> Akgün ve arkadaşları salgını belgeledi (Eur Respir J 32:1295–1303). <a class="src" href="#r-akgun">Akgün 2008</a></li><li><b>Mart 2009:</b> Türkiye silikayla kumlamayı yasakladı.</li><li><b>Takip:</b> Aynı ekibin 4 yıllık takibi, eski işçilerin neredeyse tamamında silikoz gelişebileceğini öne sürdü.</li><li><b>2025:</b> Akgün'ün derlemesi bu “20 yıllık yolculuğu” özetliyor.</li></ol></div>
+      <div class="panel panel--paper"><h3>Mutfaktaki sessiz tehlike: yapay taş</h3><p class="small">Kuvars tezgâhlar (mühendislik taşı) çok yüksek oranda kristal silika içerebilir.</p><ol class="small"><li><b>13 Aralık 2023:</b> Avustralya kararı.</li><li><b>1 Temmuz 2024:</b> Yapay taş tezgâh, panel ve levhaların üretimi, tedariki, işlenmesi ve montajı yasaklandı. <a class="src" href="#r-swa">Safe Work Australia</a></li><li><b>1 Ocak 2025:</b> İthalat yasağı başladı.</li><li><b>Mayıs 2025:</b> Prof. Dr. Metin Akgün (Türk Toraks Derneği) Türkiye'de benzer bir yasak çağrısı yaptı. <a class="src" href="#r-birgun">BirGün</a></li></ol><p class="note">Kasım 2026 itibarıyla Türkiye'de böyle bir yasak bulunamadı (Resmî Gazete'den kontrol et).</p></div>
+    </div>
+    <div class="grid g-7-5" style="margin-top:clamp(16px,2vw,28px)">
+      <div class="panel panel--paper"><h3>Mesleki maruziyet sınırları</h3><p class="small">Solunabilir kristal silika, 8 saatlik ortalama, µg/m³. Düşük değer daha sıkı kural demek.</p><div data-widget="limits"></div></div>
+      <div class="panel panel--paper"><h3>Korunma</h3><p class="small">Islak kesim, lokal egzoz havalandırması ve kapalı sistemler ilk savunmadır. Maske sınıflarının filtreleme oranları:</p><div data-widget="masks"></div><p class="small" style="margin-top:12px"><b>Riskli meslekler:</b> madencilik, taş ocakları, kumlama, döküm, inşaat, yapay taş işleme.</p></div>
+    </div>
+    <p class="kisaca"><b>Kısaca</b><span>50 µg/m³</span><span>2009</span><span>1 Temmuz 2024</span></p>
+  </div>
+</section>
+
+<!-- ───────────── 11 ÇEVRE ───────────── -->
+<section class="ch ch--sand" id="cevre" data-group="cevre">
+  <div class="wrap">
+    <header class="ch-head"><span class="ch-num" aria-hidden="true">11</span><div><h2 class="ch-title">Kum sonsuz değil</h2><p class="ch-lead">Kum, sudan sonra en çok kullanılan doğal kaynaktır. SiO₂ kimyasal olarak çok kararlıdır ve kendisi toksik bir kirletici değildir; sorun, onu çıkarma ve işleme biçimimizdir.</p></div></header>
+    <div class="grid g-7-5">
+      <div class="panel panel--paper"><h3>Dünyanın çevresine bir duvar</h3><p class="small">UNEP'in 2022 raporuna göre dünya yılda ~50 milyar ton kum ve çakıl kullanıyor. Bu, Dünya'nın çevresine 27 m yüksekliğinde ve 27 m genişliğinde bir duvar örmeye yetiyor. <a class="src" href="#r-unep">UNEP 2022</a></p><div data-widget="globe"></div></div>
+      <div class="panel panel--paper"><h3>Sen bu sayfayı açtığından beri</h3><p class="small">Yılda 50 milyar ton, saniyede ortalama ~1.585 ton demek.</p><div class="counter" id="sandCounter">0</div><p class="muted" style="margin-top:6px">ton kum ve çakıl kullanıldı (ortalamaya göre).</p><div class="didyou"><b>Zor soru:</b> Kum her yerde, neden kriz var? Çöl kumu fazla yuvarlak ve ince olduğu için betonda iyi kilitlenmez; inşaat sektörü nehir ve deniz kumuna bağımlıdır.</div></div>
+    </div>
+    <div class="grid g3" style="margin-top:clamp(16px,2vw,28px)">
+      <div class="panel panel--paper"><h3>Kıyılar küçülüyor</h3><p class="small">Rapor, plajlardan kum çıkarılmasının yasaklanmasını önerir. Sonuçlar: nehir ve kıyı erozyonu, küçülen deltalar.</p></div>
+      <div class="panel panel--paper"><h3>Camın CO₂'si</h3><p class="small">Na₂CO₃ ve CaCO₃ ayrışırken CO₂ çıkar (Denklem 3a–3b). Fırınlar da çok enerji tüketir. Kırık cam kullanmak ikisini de azaltır.</p></div>
+      <div class="panel panel--paper"><h3>Sahra tozu</h3><p class="small">Türkiye'de özellikle ilkbaharda PM10 değerlerini yükseltir (Bakanlığın hava kalitesi istasyonlarından ve MGM'den veri alınabilir).</p></div>
+      <div class="panel panel--paper"><h3>Okyanusun cam kabukluları</h3><p class="small">Diyatomeler kabuklarını sudaki çözünmüş silikadan yapar ve küresel fotosentezin önemli bir bölümünü sağlar (yüzdeyi hakemli bir kaynaktan doğrula).</p></div>
+      <div class="panel panel--paper"><h3>Urey tepkimesi</h3><p class="small">Silikat kayaçların ayrışması milyonlarca yıl boyunca atmosferden CO₂ çeker:</p><p class="eq__f" style="font-size:16px">CaSiO<sub>3</sub> + CO<sub>2</sub> <span class="arrow-r">→</span> CaCO<sub>3</sub> + SiO<sub>2</sub></p></div>
+      <div class="panel panel--paper"><h3>Hızlandırılmış kaya ayrışması</h3><p class="small">Beerling ve ark. (2020), tarım arazilerine öğütülmüş bazalt serpilirse büyük ekonomilerde yılda ~0,5–2 Gt CO₂ tutulabileceğini tahmin etti. Güncel araştırma konusu; büyük ölçekte henüz kanıtlanmadı. <a class="src" href="#r-beerling">Nature 2020</a></p></div>
+    </div>
+    <p class="kisaca"><b>Kısaca</b><span>50 milyar ton/yıl</span><span>27 m'lik duvar</span><span>0,5–2 Gt CO₂ (tahmin)</span></p>
+  </div>
+</section>
